@@ -41,10 +41,13 @@ Als nächstes installieren wir die AWS Command Line Interface (CLI) auf der ```d
 multipass exec db-vm -- sudo apt install awscli -y
 ```
 
-Konfiguriere die AWS CLI mit deinen Zugangsdaten:
+Nach der Installation konfigurieren wir die AWS CLI mit den Zugangsdaten, damit sie auf AWS-Dienste zugreifen kann.
+
 
 ```bash
 multipass exec db-vm -- aws configure   
 ```
 
+Mit diesem Befehl führen wir die Konfiguration aus, die uns auffordert, Zugangsdaten wie den Zugriffsschlüssel und den geheimen Zugriffsschlüssel einzugeben, um auf AWS zuzugreifen.
 
+Diese Schritte ermöglichen es uns, eine sichere und effiziente Umgebung für die Datenbank und Backups einzurichten und AWS für die Speicherung von Backups zu nutzen.
