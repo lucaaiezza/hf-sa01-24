@@ -51,3 +51,8 @@ multipass exec db-vm -- aws configure
 Mit diesem Befehl führen wir die Konfiguration aus, die uns auffordert, Zugangsdaten wie den Zugriffsschlüssel und den geheimen Zugriffsschlüssel einzugeben, um auf AWS zuzugreifen.
 
 Diese Schritte ermöglichen es uns, eine sichere und effiziente Umgebung für die Datenbank und Backups einzurichten und AWS für die Speicherung von Backups zu nutzen.
+
+
+4. Entwicklung des Backup-Skripts
+
+Erstelle ein Bash-Skript, das auf der db-vm läuft und die Datenbank sichert. Das Skript komprimiert die Sicherung und lädt sie auf S3 hoch.
