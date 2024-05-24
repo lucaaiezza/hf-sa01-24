@@ -56,3 +56,24 @@ Diese Schritte ermöglichen es uns, eine sichere und effiziente Umgebung für di
 4. Entwicklung des Backup-Skripts
 
 Erstelle ein Bash-Skript, das auf der db-vm läuft und die Datenbank sichert. Das Skript komprimiert die Sicherung und lädt sie auf S3 hoch.
+
+
+
+5. Konfiguration der Backup-VM (optional)
+Falls du auf der backup-vm ein Backup-Verzeichnis benötigst, erstelle es:
+
+```bash
+multipass exec backup-vm -- mkdir -p /home/ubuntu/backups
+```
+
+6. Automatisierung mittels Cron
+Automatisiere das Backup-Skript mittels cron. Füge einen Eintrag in die Crontab der db-vm ein:
+
+# Öffne die Crontab-Datei
+multipass exec db-vm -- crontab -e
+
+# Füge den folgenden Eintrag hinzu, um das Backup-Skript täglich um Mitternacht auszuführen
+0 0 * * * /home/ubuntu/backup.sh
+
+
+
