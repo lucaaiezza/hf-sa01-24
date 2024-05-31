@@ -62,28 +62,6 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 
 ## Übersicht
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3498db', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#f39c12', 'nodeTextColor': '#ffffff'}}}%%
-%%{wrapperClasses: 'mermaid-dark'}%%
-gantt
-    title Projekt-Zeitplan
-    dateFormat  YYYY-MM-DD
-    section Woche 1
-    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-01, 7d
-    Auswahl der Werkzeuge unterstützen            :a2, 2024-06-01, 7d
-    section Woche 2-3
-    Überwachung der Implementierung               :b1, 2024-06-08, 14d
-    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, 2024-06-08, 14d
-    Testen der Funktionalität                      :b3, 2024-06-08, 14d
-    section Woche 4
-    Überwachung der Dokumentation                 :c1, 2024-06-22, 7d
-    Unterstützung bei der finalen Tests           :c2, 2024-06-22, 7d
-    Durchführung abschließender Tests             :c3, 2024-06-22, 7d
-    Erstellung der Dokumentation und Präsentation :c4, 2024-06-22, 7d
-
-
-
-
 
 
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3498db', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#f39c12', 'nodeTextColor': '#ffffff'}}}%%
