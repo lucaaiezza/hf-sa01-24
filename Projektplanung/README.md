@@ -64,6 +64,7 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 
 ```mermaid
 %%{init: {'theme': 'default', 'themeVariables': { 'primaryColor': '#4CAF50', 'rowTitleColor': '#ffffff', 'rowOddBgColor': '#f2f2f2', 'rowEvenBgColor': '#ffffff'}}}%%
+
 gantt
     title Projektplan
     dateFormat  YYYY-MM-DD
