@@ -70,17 +70,17 @@ gantt
     axisFormat  %d-%m
 
     section Woche 1
-    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-01, 7d
-    Auswahl der Werkzeuge unterstützen            :a2, 2024-06-01, 7d
+    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-07, 7d
+    Auswahl der Werkzeuge unterstützen            :a2, 2024-06-07, 7d
 
     section Woche 2-3
-    Überwachung der Implementierung               :b1, 2024-06-08, 14d
-    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, 2024-06-08, 14d
-    Testen der Funktionalität                      :b3, 2024-06-08, 14d
+    Überwachung der Implementierung               :b1, 2024-06-15, 14d
+    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, 2024-06-15, 14d
+    Testen der Funktionalität                      :b3, 2024-06-15, 14d
 
     section Woche 4
-    Überwachung der Dokumentation                 :c1, 2024-06-22, 7d
-    Unterstützung bei der finalen Tests           :c2, 2024-06-22, 7d
-    Durchführung abschließender Tests             :c3, 2024-06-22, 7d
-    Erstellung der Dokumentation und Präsentation :c4, 2024-06-22, 7d
+    Überwachung der Dokumentation                 :c1, 2024-06-29, 7d
+    Unterstützung bei der finalen Tests           :c2, 2024-06-29, 7d
+    Durchführung abschließender Tests             :c3, 2024-06-29, 7d
+    Erstellung der Dokumentation und Präsentation :c4, 2024-06-29, 7d
 
