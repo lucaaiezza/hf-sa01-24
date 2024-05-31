@@ -61,6 +61,8 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 | **Dokumentation**  | Erstellung der technischen und managergerechten Dokumentation sowie der Präsentation |
 
 ## Übersicht
+
+```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3498db', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#f39c12', 'nodeTextColor': '#ffffff'}}}%%
 %%{wrapperClasses: 'mermaid-dark'}%%
 gantt
