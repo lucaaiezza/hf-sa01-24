@@ -80,9 +80,3 @@ gantt
     Unterstützung bei der finalen Tests           :c2, 2024-06-22, 7d
     Durchführung abschließender Tests             :c3, 2024-06-22, 7d
     Erstellung der Dokumentation und Präsentation :c4, 2024-06-22, 7d
-    %% Additionally, add dependencies
-    c1 --> c2
-    c2 --> c3
-    c3 --> c4
-
-
