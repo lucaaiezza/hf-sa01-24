@@ -81,6 +81,6 @@ gantt
     section Woche 4
     Überwachung der Dokumentation                 :c1, 2024-06-29, 7d
     Unterstützung bei der finalen Tests           :c2, 2024-06-29, 7d
-    Durchführung abschließender Tests             :c3, 2024-06-29, 7d
+    Durchführung abschliessender Tests             :c3, 2024-06-29, 7d
     Erstellung der Dokumentation und Präsentation :c4, 2024-06-29, 7d
 
