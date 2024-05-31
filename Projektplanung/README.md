@@ -33,6 +33,8 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 - **Präsentationsvorbereitung**: Erstellung der Präsentation für die Abschlussvorstellung des Projekts.
 
 
+<iframe src="Projketplanung Diagramm.drawio.html" width="100%" height="600px"></iframe>
+
 
 [Diagramm anzeigen](./Projket%20Diagramm.jpg)
 
