@@ -1,95 +1,82 @@
-# Scrum-Projektplanung für die Automatisierte Datenbank-Backup-Lösung mit AWS
+# Projektplan
 
-## Rollen
+## 1. Planung und Konzeption (Woche 1)
 
-- **ICH(LucaAiezza):** übernehme die Rolle des Product Owners, Scrum Masters und des Entwicklungsteams.
+### Ziel
+Grundlegende Planung und Festlegung der Anforderungen.
 
-## Artefakte
+### Aufgaben
+- **Anforderungen festlegen**: Sammeln und Dokumentieren der Anforderungen an die Lösung.
+- **Werkzeuge auswählen**: Entscheidung über die zu verwendenden Tools und Technologien (z.B. Python, Bash, mysqldump, gzip, scp/sftp, sendmail/smtplib).
 
-- **Product Backlog:** Liste aller Aufgaben und Anforderungen, die im Projekt erledigt werden müssen.
-- **Sprint Backlog:** Auswahl von Aufgaben aus dem Product Backlog, die im aktuellen Sprint bearbeitet werden.
-- **Inkrement:** Das am Ende jedes Sprints fertige Produkt, das einen wertvollen Fortschritt darstellt.
+## 2. Implementierung der Lösung (Woche 2-3)
 
-## Zeremonien
+### Ziel
+Entwicklung und Testen des automatisierten Backup-Skripts.
 
-- **Sprint Planning:** Planen des kommenden Sprints und Auswahl der Aufgaben aus dem Product Backlog.
-- **Daily Stand-up:** Tägliches kurzes Meeting (Selbstreflexion), um den Fortschritt zu überprüfen und Hindernisse zu identifizieren.
-- **Sprint Review:** Präsentation der Arbeitsergebnisse am Ende des Sprints und Überprüfung, ob die Ziele erreicht wurden.
-- **Sprint Retrospective:** Reflexion über den letzten Sprint und Identifikation von Verbesserungsmöglichkeiten.
+### Aufgaben
+- **Skripterstellung**: Schreiben eines Skripts zur automatisierten Sicherung der MySQL-Datenbanken.
+- **Komprimierung**: Integration von gzip zur Komprimierung der Sicherungen.
+- **Speicherung**: Einrichtung der Übertragungsmethode (scp/sftp) zur Sicherung auf einem Cloud-Server.
+- **Benachrichtigungen**: Implementierung des E-Mail-Benachrichtigungssystems.
+- **Testen**: Durchführung von Tests, um sicherzustellen, dass alle Komponenten korrekt funktionieren.
 
-## Sprint-Zyklus
+## 3. Dokumentation und Abschluss (Woche 4)
 
-Das Projekt wird in mehreren zweiwöchigen Sprints durchgeführt.
+### Ziel
+Erstellung der Dokumentation und Vorbereitung der Präsentation.
 
-## Planung der Sprints
+### Aufgaben
+- **Technische Dokumentation**: Erstellung einer umfassenden Anleitung zur Installation, Konfiguration und Wartung der Lösung.
+- **Managergerechte Dokumentation**: Erstellung einer verständlichen Dokumentation für nicht-technische Stakeholder.
+- **Finale Tests**: Durchführung abschließender Tests zur Validierung der Lösung.
+- **Präsentationsvorbereitung**: Erstellung der Präsentation für die Abschlussvorstellung des Projekts.
 
-### Sprint 1: Einrichtung der Infrastruktur (2 Wochen)
 
-**Ziele:**
 
-- Erstellen der VMs mit Multipass.
-- Installation und Konfiguration von MySQL auf der `db-vm`.
-- Einrichtung des AWS S3-Buckets.
+[Diagramm anzeigen](Projketplanung%20Diagramm.drawio.html)
 
-**Aufgaben:**
 
-- Multipass-VMs erstellen.
-- MySQL-Installation und Konfiguration.
-- AWS S3-Bucket erstellen.
+# Swimlane-Diagramm
 
-### Sprint 2: Entwicklung des Backup-Skripts (2 Wochen)
+## Woche 1
+| Rolle           | Aufgaben                                                 |
+|-----------------|----------------------------------------------------------|
+| **Projektmanager** | Anforderungen festlegen, Werkzeuge auswählen              |
+| **Entwickler**      | Auswahl der Werkzeuge unterstützen                        |
 
-**Ziele:**
+## Woche 2-3
+| Rolle           | Aufgaben                                                             |
+|-----------------|----------------------------------------------------------------------|
+| **Projektmanager** | Überwachung der Implementierung                                       |
+| **Entwickler**      | Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen        |
+| **Tester**         | Testen der Funktionalität (Komprimierung, Speicherung, Benachrichtigungen) |
 
-- Entwicklung des Bash-Skripts zum Sichern der Datenbank.
-- Testen und Verifizieren des Skripts.
+## Woche 4
+| Rolle           | Aufgaben                                                           |
+|-----------------|--------------------------------------------------------------------|
+| **Projektmanager** | Überwachung der Dokumentation                                       |
+| **Entwickler**      | Unterstützung bei der finalen Tests                                |
+| **Tester**         | Durchführung abschließender Tests                                   |
+| **Dokumentation**  | Erstellung der technischen und managergerechten Dokumentation sowie der Präsentation |
 
-**Aufgaben:**
+## Übersicht
 
-- Backup-Skript entwickeln.
-- Skript testen und Fehler beheben.
-
-### Sprint 3: Automatisierung und Wartung (2 Wochen)
-
-**Ziele:**
-
-- Automatisierung des Backup-Skripts mittels Cron-Jobs.
-- Implementierung von Benachrichtigungen bei erfolgreichem und fehlgeschlagenem Backup.
-
-**Aufgaben:**
-
-- Cron-Job einrichten.
-- E-Mail-Benachrichtigungen implementieren und testen.
-
-### Sprint 4: Dokumentation und Abschluss (2 Wochen)
-
-**Ziele:**
-
-- Erstellung der Projektdokumentation.
-- Review und Anpassung der Lösung basierend auf Feedback.
-
-**Aufgaben:**
-
-- Dokumentation erstellen.
-- Review und Anpassungen vornehmen.
-
-## Scrum Meetings
-
-1. **Sprint Planning:**
-   - Definition der Sprint-Ziele.
-   - Auswahl der User Stories und Aufgaben aus dem Product Backlog.
-2. **Daily Stand-ups:**
-   - Selbstreflexion: Was wurde seit dem letzten Stand-up erreicht?
-   - Was wird bis zum nächsten Stand-up erledigt?
-   - Gibt es irgendwelche Hindernisse?
-3. **Sprint Review:**
-   - Präsentation der Arbeitsergebnisse.
-   - Überprüfung, ob die Ziele erreicht wurden.
-4. **Sprint Retrospective:**
-   - Was lief gut?
-   - Was könnte verbessert werden?
-   - Aktionspunkte für den nächsten Sprint.
-
-## Zusammenfassung
-
-Durch die Anwendung von Scrum wird das Projekt in klar definierte Sprints unterteilt, was eine kontinuierliche Lieferung von Fortschritten ermöglicht und Flexibilität bei der Anpassung an neue Anforderungen bietet. Die regelmäßigen Meetings und Reviews stellen sicher, dass du auf dem richtigen Weg bleibst und potenzielle Probleme frühzeitig erkannt und behoben werden.
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3498db', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#f39c12', 'nodeTextColor': '#ffffff'}}}%%
+%%{wrapperClasses: 'mermaid-dark'}%%
+gantt
+    title Projekt-Zeitplan
+    dateFormat  YYYY-MM-DD
+    section Woche 1
+    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-01, 7d
+    Auswahl der Werkzeuge unterstützen            :a2, 2024-06-01, 7d
+    section Woche 2-3
+    Überwachung der Implementierung               :b1, 2024-06-08, 14d
+    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, 2024-06-08, 14d
+    Testen der Funktionalität                      :b3, 2024-06-08, 14d
+    section Woche 4
+    Überwachung der Dokumentation                 :c1, 2024-06-22, 7d
+    Unterstützung bei der finalen Tests           :c2, 2024-06-22, 7d
+    Durchführung abschließender Tests             :c3, 2024-06-22, 7d
+    Erstellung der Dokumentation und Präsentation :c4, 2024-06-22, 7d
