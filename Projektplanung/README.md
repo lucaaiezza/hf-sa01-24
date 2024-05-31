@@ -80,13 +80,6 @@ gantt
     Unterstützung bei der finalen Tests           :c2, after c1, 7d
     Durchführung abschließender Tests             :c3, after c1, 7d
     Erstellung der Dokumentation und Präsentation :c4, after c1, 7d
-    %% Additionally, add dependencies
-    a1 --> a2
-    b1 --> b2
-    b1 --> b3
-    c1 --> c2
-    c1 --> c3
-    c1 --> c4
 
 
 
