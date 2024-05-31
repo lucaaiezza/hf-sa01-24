@@ -29,7 +29,7 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 ### Aufgaben
 - **Technische Dokumentation**: Erstellung einer umfassenden Anleitung zur Installation, Konfiguration und Wartung der Lösung.
 - **Managergerechte Dokumentation**: Erstellung einer verständlichen Dokumentation für nicht-technische Stakeholder.
-- **Finale Tests**: Durchführung abschließender Tests zur Validierung der Lösung.
+- **Finale Tests**: Durchführung abschliessender Tests zur Validierung der Lösung.
 - **Präsentationsvorbereitung**: Erstellung der Präsentation für die Abschlussvorstellung des Projekts.
 
 
@@ -57,7 +57,7 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 |-----------------|--------------------------------------------------------------------|
 | **Projektmanager** | Überwachung der Dokumentation                                       |
 | **Entwickler**      | Unterstützung bei der finalen Tests                                |
-| **Tester**         | Durchführung abschließender Tests                                   |
+| **Tester**         | Durchführung abschliessender Tests                                   |
 | **Dokumentation**  | Erstellung der technischen und managergerechten Dokumentation sowie der Präsentation |
 
 ## Übersicht
@@ -81,6 +81,6 @@ gantt
     section Woche 4
     Überwachung der Dokumentation                 :c1, 2024-06-22, 7d
     Unterstützung bei der finalen Tests           :c2, 2024-06-22, 7d
-    Durchführung abschließender Tests             :c3, 2024-06-22, 7d
+    Durchführung abschliessender Tests             :c3, 2024-06-22, 7d
     Erstellung der Dokumentation und Präsentation :c4, 2024-06-22, 7d
 
