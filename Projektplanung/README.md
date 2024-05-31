@@ -62,6 +62,7 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 
 ## Übersicht
 
+```mermaid
 %%{init: {'theme': 'default', 'themeVariables': { 'primaryColor': '#4CAF50', 'rowTitleColor': '#ffffff', 'rowOddBgColor': '#f2f2f2', 'rowEvenBgColor': '#ffffff'}}}%%
 
 gantt
@@ -83,6 +84,3 @@ gantt
     Entwickler : des7, after des3, 2024-06-22, 2024-06-28
     Tester : des8, after des3, 2024-06-22, 2024-06-28
     Dokumentation : des9, after des3, 2024-06-22, 2024-06-28
-
-
-
