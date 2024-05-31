@@ -62,23 +62,27 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 
 ## Übersicht
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3498db', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#f39c12', 'nodeTextColor': '#ffffff'}}}%%
-%%{wrapperClasses: 'mermaid-dark'}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'primaryColor': '#4CAF50', 'rowTitleColor': '#ffffff', 'rowOddBgColor': '#f2f2f2', 'rowEvenBgColor': '#ffffff'}}}%%
+
 gantt
-    title Projekt-Zeitplan
+    title Projektplan
     dateFormat  YYYY-MM-DD
+    axisFormat  %d-%m
+
     section Woche 1
-    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-01, 7d
-    Auswahl der Werkzeuge unterstützen            :a2, after a1, 7d
+    Projektmanager :done, des1, 2024-06-01, 2024-06-07
+    Entwickler :done, des2, 2024-06-01, 2024-06-07
+
     section Woche 2-3
-    Überwachung der Implementierung               :b1, 2024-06-08, 14d
-    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, after b1, 14d
-    Testen der Funktionalität                      :b3, after b1, 14d
+    Projektmanager : des3, after des1, 2024-06-08, 2024-06-21
+    Entwickler : des4, after des1, 2024-06-08, 2024-06-21
+    Tester : des5, after des1, 2024-06-08, 2024-06-21
+
     section Woche 4
-    Überwachung der Dokumentation                 :c1, 2024-06-22, 7d
-    Unterstützung bei der finalen Tests           :c2, after c1, 7d
-    Durchführung abschließender Tests             :c3, after c1, 7d
-    Erstellung der Dokumentation und Präsentation :c4, after c1, 7d
+    Projektmanager : des6, after des3, 2024-06-22, 2024-06-28
+    Entwickler : des7, after des3, 2024-06-22, 2024-06-28
+    Tester : des8, after des3, 2024-06-22, 2024-06-28
+    Dokumentation : des9, after des3, 2024-06-22, 2024-06-28
+
 
 
