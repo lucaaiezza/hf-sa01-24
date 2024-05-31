@@ -63,26 +63,21 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 ## Übersicht
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3498db', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#f39c12', 'nodeTextColor': '#ffffff'}}}%%
+%%{wrapperClasses: 'mermaid-dark'}%%
 gantt
     title Projekt-Zeitplan
     dateFormat  YYYY-MM-DD
     section Woche 1
-    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-01, 1d
-    Auswahl der Werkzeuge unterstützen            :a2, 2024-06-02, 6d
+    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-01, 7d
+    Auswahl der Werkzeuge unterstützen            :a2, after a1, 7d
     section Woche 2-3
-    Überwachung der Implementierung               :b1, 2024-06-08, 1d
-    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, 2024-06-09, 13d
-    Testen der Funktionalität                      :b3, 2024-06-09, 13d
+    Überwachung der Implementierung               :b1, 2024-06-08, 14d
+    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, after b1, 14d
+    Testen der Funktionalität                      :b3, after b1, 14d
     section Woche 4
-    Überwachung der Dokumentation                 :c1, 2024-06-22, 1d
-    Unterstützung bei der finalen Tests           :c2, 2024-06-23, 6d
-    Durchführung abschließender Tests             :c3, 2024-06-23, 6d
-    Erstellung der Dokumentation und Präsentation :c4, 2024-06-23, 6d
-    %% Additionally, add dependencies
-    a1 --> a2
-    b1 --> b2
-    b1 --> b3
-    c1 --> c2
-    c1 --> c3
-    c1 --> c4
+    Überwachung der Dokumentation                 :c1, 2024-06-22, 7d
+    Unterstützung bei der finalen Tests           :c2, after c1, 7d
+    Durchführung abschließender Tests             :c3, after c1, 7d
+    Erstellung der Dokumentation und Präsentation :c4, after c1, 7d
 
