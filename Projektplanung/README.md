@@ -63,8 +63,6 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 ## Übersicht
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3498db', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#f39c12', 'nodeTextColor': '#ffffff'}}}%%
-%%{wrapperClasses: 'mermaid-dark'}%%
 gantt
     title Projekt-Zeitplan
     dateFormat  YYYY-MM-DD
@@ -87,3 +85,4 @@ gantt
     c1 --> c2
     c1 --> c3
     c1 --> c4
+
