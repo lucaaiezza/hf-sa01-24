@@ -84,9 +84,3 @@ gantt
     Durchführung abschließender Tests             :c3, 2024-06-22, 7d
     Erstellung der Dokumentation und Präsentation :c4, 2024-06-22, 7d
 
-    linkStyle 0 stroke-width:0;
-    linkStyle 1 stroke-width:0;
-    linkStyle 2 stroke-width:0;
-    linkStyle 3 stroke-width:0;
-    linkStyle 4 stroke-width:0;
-    linkStyle 5 stroke-width:0;
