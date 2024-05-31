@@ -62,24 +62,24 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 
 ## Übersicht
 
-```mermaid
+%%{init: {'theme': 'default', 'themeVariables': { 'primaryColor': '#4CAF50', 'rowTitleColor': '#ffffff', 'rowOddBgColor': '#f2f2f2', 'rowEvenBgColor': '#ffffff'}}}%%
 gantt
     title Projektplan
     dateFormat  YYYY-MM-DD
     axisFormat  %d-%m
 
     section Woche 1
-    Projektmanager :done, des1, 2024-06-01, 2024-06-07
-    Entwickler :done, des2, 2024-06-01, 2024-06-07
+    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-01, 7d
+    Auswahl der Werkzeuge unterstützen            :a2, 2024-06-01, 7d
 
     section Woche 2-3
-    Projektmanager : des3, after des1, 2024-06-08, 2024-06-21
-    Entwickler : des4, after des1, 2024-06-08, 2024-06-21
-    Tester : des5, after des1, 2024-06-08, 2024-06-21
+    Überwachung der Implementierung               :b1, 2024-06-08, 14d
+    Skripterstellung, Komprimierung, Speicherung, Benachrichtigungen :b2, 2024-06-08, 14d
+    Testen der Funktionalität                      :b3, 2024-06-08, 14d
 
     section Woche 4
-    Projektmanager : des6, after des3, 2024-06-22, 2024-06-28
-    Entwickler : des7, after des3, 2024-06-22, 2024-06-28
-    Tester : des8, after des3, 2024-06-22, 2024-06-28
-    Dokumentation : des9, after des3, 2024-06-22, 2024-06-28
+    Überwachung der Dokumentation                 :c1, 2024-06-22, 7d
+    Unterstützung bei der finalen Tests           :c2, 2024-06-22, 7d
+    Durchführung abschließender Tests             :c3, 2024-06-22, 7d
+    Erstellung der Dokumentation und Präsentation :c4, 2024-06-22, 7d
 
