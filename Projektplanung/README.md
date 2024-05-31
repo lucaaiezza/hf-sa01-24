@@ -82,4 +82,3 @@ gantt
     Erstellung der Dokumentation und Präsentation :c4, after c1, 7d
 
 
-
