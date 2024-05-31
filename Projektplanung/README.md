@@ -34,7 +34,7 @@ Erstellung der Dokumentation und Vorbereitung der Präsentation.
 
 
 
-[Diagramm anzeigen](Projketplanung%20Diagramm.drawio.html)
+[Diagramm anzeigen](./Projket%20Diagramm.jpg)
 
 
 # Swimlane-Diagramm
