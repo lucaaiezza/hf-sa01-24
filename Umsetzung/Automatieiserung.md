@@ -70,3 +70,60 @@ crontab -e
    - Bei `nano`: `Ctrl+O` zum Speichern, Enter zum Bestätigen und `Ctrl+X` zum Beenden.
 
 Wenn alles richtig gemacht wurde, wird Ihr Skript `backup.sh` nun alle 5 Minuten ausgeführt und die Ausgabe wird in `backup.log` gespeichert.
+
+
+# Logs 
+
+Um die Logs anzusehen, können Sie den Inhalt der Logdatei `backup.log` mit verschiedenen Befehlen in der Kommandozeile anzeigen. Hier sind einige nützliche Befehle:
+
+1. **Den gesamten Inhalt der Logdatei anzeigen**:
+   ```bash
+   cat /home/ubuntu/backup.log
+   ```
+
+2. **Den Inhalt der Logdatei seitenweise anzeigen (nützlich bei großen Dateien)**:
+   ```bash
+   less /home/ubuntu/backup.log
+   ```
+
+   Verwenden Sie die Pfeiltasten, um nach oben und unten zu scrollen, und drücken Sie `q`, um `less` zu beenden.
+
+3. **Die letzten Zeilen der Logdatei anzeigen**:
+   ```bash
+   tail /home/ubuntu/backup.log
+   ```
+
+4. **Die letzten Zeilen der Logdatei fortlaufend anzeigen (nützlich zum Überwachen in Echtzeit)**:
+   ```bash
+   tail -f /home/ubuntu/backup.log
+   ```
+
+   Drücken Sie `Ctrl+C`, um das Monitoring zu beenden.
+
+5. **Die letzten n Zeilen der Logdatei anzeigen**:
+   ```bash
+   tail -n 100 /home/ubuntu/backup.log
+   ```
+
+   Ersetzen Sie `100` durch die gewünschte Anzahl von Zeilen.
+
+Hier ist eine kurze Erklärung, wie Sie diese Befehle verwenden können:
+
+- **`cat`**: Zeigt den gesamten Inhalt der Datei auf einmal an.
+- **`less`**: Ermöglicht das seitenweise Durchblättern der Datei.
+- **`tail`**: Zeigt die letzten Zeilen der Datei an.
+- **`tail -f`**: Zeigt die letzten Zeilen der Datei an und aktualisiert die Anzeige, wenn die Datei wächst.
+
+Wählen Sie den Befehl, der am besten zu Ihren Bedürfnissen passt. Zum Beispiel, wenn Sie nur überprüfen möchten, ob Ihr Skript korrekt ausgeführt wurde und keine Fehler aufgetreten sind, können Sie einfach die letzten Zeilen mit `tail` anzeigen:
+
+```bash
+tail /home/ubuntu/backup.log
+```
+
+Oder, wenn Sie fortlaufend überwachen möchten, verwenden Sie:
+
+```bash
+tail -f /home/ubuntu/backup.log
+```
+
+Auf diese Weise können Sie die Logs überprüfen und sicherstellen, dass Ihre Backups ordnungsgemäß durchgeführt werden.
