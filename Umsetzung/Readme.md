@@ -13,7 +13,7 @@ Dazu wurde Multipass verwendet. Als erstes wurden zwei VMs erstellt: eine für d
 
 Somit wurde das gesamte Projekt lokal getestet.
 
-[Hier ist ein Link zur gesamten lokalen Umsetzung](./Files/PartTOW.md)
+[Hier ist ein Link zur gesamten lokalen Umsetzung](./Files/LokaleTests.md)
 
 ## Umsetzung in die Cloud
 
