@@ -13,13 +13,13 @@ Dazu wurde Multipass verwendet. Als erstes wurden zwei VMs erstellt: eine für d
 
 Somit wurde das gesamte Projekt lokal getestet.
 
-[Hier ist ein Link zur gesamten lokalen Umsetzung](./PartTOW.md)
+[Hier ist ein Link zur gesamten lokalen Umsetzung](./Files/PartTOW.md)
 
 ## Umsetzung in die Cloud
 
 Nachdem alle lokalen Tests erfolgreich abgeschlossen waren, wurde die Backup-VM in AWS erstellt, um das Datenbank-Backup dort zu speichern, anstatt lokal.
 
-[Hier ist ein Link zur vollständigen Dokumentation der Cloud-Umsetzung](./Multipass-AWS.md)
+[Hier ist ein Link zur vollständigen Dokumentation der Cloud-Umsetzung](./Files/Multipass-AWS.md)
 
 ---
 
