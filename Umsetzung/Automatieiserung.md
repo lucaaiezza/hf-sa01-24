@@ -66,7 +66,7 @@ crontab -e
    */5 * * * * /home/ubuntu/backup.sh >> /home/ubuntu/backup.log 2>&1
    ```
 
-4. **Speichern und schließen**:
+4. **Speichern und schliessen**:
    - Bei `nano`: `Ctrl+O` zum Speichern, Enter zum Bestätigen und `Ctrl+X` zum Beenden.
 
 Wenn alles richtig gemacht wurde, wird Ihr Skript `backup.sh` nun alle 5 Minuten ausgeführt und die Ausgabe wird in `backup.log` gespeichert.
@@ -81,7 +81,7 @@ Um die Logs anzusehen, können Sie den Inhalt der Logdatei `backup.log` mit vers
    cat /home/ubuntu/backup.log
    ```
 
-2. **Den Inhalt der Logdatei seitenweise anzeigen (nützlich bei großen Dateien)**:
+2. **Den Inhalt der Logdatei seitenweise anzeigen (nützlich bei grossen Dateien)**:
    ```bash
    less /home/ubuntu/backup.log
    ```
@@ -126,4 +126,4 @@ Oder, wenn Sie fortlaufend überwachen möchten, verwenden Sie:
 tail -f /home/ubuntu/backup.log
 ```
 
-Auf diese Weise können Sie die Logs überprüfen und sicherstellen, dass Ihre Backups ordnungsgemäß durchgeführt werden.
+Auf diese Weise können Sie die Logs überprüfen und sicherstellen, dass Ihre Backups ordnungsgemäss durchgeführt werden.
