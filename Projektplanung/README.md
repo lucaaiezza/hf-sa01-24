@@ -71,6 +71,7 @@ gantt
 
     section Woche 1
     Auswahl der Werkzeuge unterstützen            :a2, 2024-06-07, 7d
+    Anforderungen festlegen, Werkzeuge auswählen  :a3, 2024-06-07, 7d
 
     section Woche 2-3
     Überwachung der Implementierung               :b1, 2024-06-15, 14d
