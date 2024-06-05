@@ -71,7 +71,7 @@ gantt
 
     section Woche 1
     Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-07, 7d
-    Auswahl der Werkzeuge unterstützen            :a2, 2024-06-07, 7d
+    Auswahl der Werkzeuge unterstützen            :a2, after a1, 7d
 
     section Woche 2-3
     Überwachung der Implementierung               :b1, 2024-06-15, 14d
@@ -80,9 +80,10 @@ gantt
 
     section Woche 4
     Überwachung der Dokumentation                 :c1, 2024-06-29, 7d
-    Unterstützung bei den finalen Tests           :c2, 2024-06-29, 7d
-    Durchführung abschließender Tests             :c3, 2024-06-29, 7d
-    Erstellung der Dokumentation und Präsentation :c4, 2024-06-29, 7d
+    Unterstützung bei den finalen Tests           :c2, after c1, 7d
+    Durchführung abschließender Tests             :c3, after c2, 7d
+    Erstellung der Dokumentation und Präsentation :c4, after c3, 7d
+
 
 
 
