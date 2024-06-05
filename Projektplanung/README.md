@@ -70,7 +70,7 @@ gantt
     axisFormat  %d-%m
 
     section Woche 1
-    Anforderungen festlegen, Werkzeuge auswählen  :a2, 2024-06-07, 7d
+    Anforderungen festlegen, Werkzeuge auswählen  :a1, 2024-06-07, 7d
     Auswahl der Werkzeuge unterstützen            :a2, 2024-06-07, 7d
 
     section Woche 2-3
@@ -83,5 +83,6 @@ gantt
     Unterstützung bei den finalen Tests           :c2, 2024-06-29, 7d
     Durchführung abschließender Tests             :c3, 2024-06-29, 7d
     Erstellung der Dokumentation und Präsentation :c4, 2024-06-29, 7d
+
 
 
