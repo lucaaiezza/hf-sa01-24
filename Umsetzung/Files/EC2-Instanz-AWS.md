@@ -30,7 +30,7 @@
 ### Schritt 7: Schlüsselpaar (Anmeldung)
 1. Erstellen Sie ein neues Schlüsselpaar oder wählen Sie ein bestehendes aus, um den sicheren Zugriff auf Ihre Instanz zu ermöglichen. Laden Sie das Schlüsselpaar herunter und speichern Sie es sicher.
 
-<img src="./images/Schluesselpaar.png" alt="Schlüsselpaar" width="300">
+<img src="./images/Schluesselpaar.png" alt="Schlüsselpaar" width="400">
 
 ### Schritt 8: Netzwerkeinstellungen konfigurieren
 1. Konfigurieren Sie die Netzwerkeinstellungen entsprechend Ihren Anforderungen. Dazu gehören die Auswahl des VPC, Subnetzes, sowie die Zuweisung einer öffentlichen IP-Adresse und die Konfiguration der Sicherheitsgruppen.
