@@ -2,7 +2,7 @@
 
 In dieser Anleitung wird Schritt für Schritt erklärt, wie Sie eine MySQL-Datenbank auf einer lokalen VM mit Multipass einrichten und regelmässig Backups dieser Datenbank auf einer AWS EC2-Instanz speichern können. Hier erfahren Sie, welche Software und Werkzeuge Sie benötigen, sowie die genauen Schritte zur Konfiguration und Implementierung.
 
-# Was wird gemacht?
+**Was wird gemacht?**
 1. **Installation und Konfiguration von Multipass**: Installation von Multipass auf Ihrem lokalen Rechner zur Verwaltung von VMs.
 2. **Erstellung einer MySQL-VM**: Einrichtung einer virtuellen Maschine, auf der MySQL läuft.
 3. **Installation von MySQL**: MySQL-Datenbankserver auf der VM installieren und konfigurieren.
@@ -14,7 +14,7 @@ In dieser Anleitung wird Schritt für Schritt erklärt, wie Sie eine MySQL-Daten
 9. **Erstellung eines Backup-Skripts**: Ein Skript auf der MySQL-VM schreiben, das die Datenbank sichert und die Sicherungsdateien zur EC2-Instanz überträgt.
 10. **Testen des Backup-Skripts**: Ausführen und Überprüfen des Backup-Skripts, um sicherzustellen, dass die Backups erfolgreich erstellt und übertragen werden.
 
-# Was wird benötigt?
+**Was wird benötigt?**
 - **Multipass**: Ein Tool zur Verwaltung von VMs auf Ihrem lokalen Rechner. Laden Sie es von der [offiziellen Webseite](https://multipass.run) herunter.
 - **MySQL-Server**: Datenbankserver-Software, die auf der VM installiert wird.
 - **AWS-Konto**: Zum Erstellen und Verwalten einer EC2-Instanz auf Amazon Web Services.
