@@ -20,12 +20,10 @@
 
 <img src="./images/image.png" alt="Launch Instance" width="500">
 
-
 ### Schritt 5: Betriebssystem auswählen
 1. Unter dem Abschnitt "Anwendungs- und Betriebssystemabbilder (AMIs)" wählen Sie das gewünschte Betriebssystem aus. In diesem Fall wählen wir "Ubuntu Server 24.04".
 
 <img src="./images/image-1.png" alt="Instance Naming" width="500">
-
 
 ### Schritt 6: Auswahl des Instanztyps
 1. Wählen Sie den Instanztyp, der Ihren Anforderungen entspricht. AWS bietet verschiedene Instanztypen mit unterschiedlichen Leistungsmerkmalen (CPU, RAM, etc.).
@@ -34,7 +32,6 @@
 
 ### Schritt 7: Schlüsselpaar (Anmeldung)
 1. Erstellen Sie ein neues Schlüsselpaar oder wählen Sie ein bestehendes aus, um den sicheren Zugriff auf Ihre Instanz zu ermöglichen. Laden Sie das Schlüsselpaar herunter und speichern Sie es sicher.
-
 
 <img src="./images/Schlüsselpaar.png" alt="Schlüsselpaar" width="500">
 
