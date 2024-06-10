@@ -21,8 +21,12 @@ In dieser Anleitung wird Schritt für Schritt erklärt, wie Sie eine MySQL-Daten
 - **SSH-Tools**: Für die sichere Verbindung zwischen der lokalen MySQL-VM und der EC2-Instanz.
 - **Weitere Pakete**: `mysqldump`, `gzip`, `scp`, die auf den VMs installiert werden.
 
+---
 
 [TOC]
+
+
+---
 
 ## Schritt 1: Installiere und konfiguriere Multipass auf deinem lokalen Rechner
 Stelle sicher, dass Multipass auf deinem Laptop installiert ist. Falls nicht, kannst du Multipass von der [offiziellen Webseite](https://multipass.run) herunterladen und installieren.
