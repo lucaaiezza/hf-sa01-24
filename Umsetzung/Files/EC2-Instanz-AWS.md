@@ -30,7 +30,7 @@
 ### Schritt 7: Schlüsselpaar (Anmeldung)
 1. Erstellen Sie ein neues Schlüsselpaar oder wählen Sie ein bestehendes aus, um den sicheren Zugriff auf Ihre Instanz zu ermöglichen. Laden Sie das Schlüsselpaar herunter und speichern Sie es sicher.
 
-<img src="./images/Schlüsselpaar.png" alt="Schlüsselpaar" width="100">
+<img src="./images/Schluesselpaar.png" alt="Schlüsselpaar" width="500">
 
 ### Schritt 8: Netzwerkeinstellungen konfigurieren
 1. Konfigurieren Sie die Netzwerkeinstellungen entsprechend Ihren Anforderungen. Dazu gehören die Auswahl des VPC, Subnetzes, sowie die Zuweisung einer öffentlichen IP-Adresse und die Konfiguration der Sicherheitsgruppen.
@@ -41,6 +41,6 @@
 ### Schritt 10: Instanz starten
 1. Überprüfen Sie Ihre Einstellungen und klicken Sie auf "Launch Instance", um die Instanz zu starten.
 
-<img src="./images/Übersicht.png" alt="Übersicht" width="1000">
+<img src="./images/Uebersicht.png" alt="Übersicht" width="500">
 
 Nachdem die Instanz gestartet wurde, können Sie sich mit dem zuvor erstellten Schlüsselpaar über SSH verbinden und Ihre gewünschten Anwendungen und Daten auf die VM übertragen.
