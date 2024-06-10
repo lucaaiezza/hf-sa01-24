@@ -1,11 +1,10 @@
-
 ## Anleitung: Erstellen einer EC2-Instanz auf AWS
 
 ### Schritt 1: Anmeldung auf AWS
 1. Öffnen Sie die Website: [AWS Academy](https://www.awsacademy.com/vforcesite/LMS_Login).
 2. Melden Sie sich mit Ihren Zugangsdaten an.
 
-![AWS Login](./images/image.png)
+<img src="./images/image.png" alt="AWS Login" width="500">
 
 ### Schritt 2: Auswahl des EC2-Dienstes
 1. Nach der Anmeldung sehen Sie das AWS Management Console Dashboard.
@@ -15,12 +14,12 @@
 1. Im linken Navigationsmenü finden Sie unter "Instanzen" die Option "Instanzen".
 2. Klicken Sie auf "Instanz starten" (Launch an instance), um eine neue VM zu erstellen.
 
-![Launch Instance](./images/image.png)
+<img src="./images/image.png" alt="Launch Instance" width="500">
 
 ### Schritt 4: Konfigurieren der Instanz
 1. Geben Sie der VM einen Namen. Es ist wichtig, einen aussagekräftigen Namen zu wählen, damit Sie immer wissen, wofür die VM verwendet wird.
 
-![Instance Naming](./images/image-1.png)
+<img src="./images/image-1.png" alt="Instance Naming" width="500">
 
 ### Schritt 5: Betriebssystem auswählen
 1. Unter dem Abschnitt "Anwendungs- und Betriebssystemabbilder (AMIs)" wählen Sie das gewünschte Betriebssystem aus. In diesem Fall wählen wir "Ubuntu Server 24.04".
