@@ -4,7 +4,7 @@
 1. Öffnen Sie die Website: [AWS Academy](https://www.awsacademy.com/vforcesite/LMS_Login).
 2. Melden Sie sich mit Ihren Zugangsdaten an.
 
-<img src="./images/image.png" alt="AWS Login" width="500">
+<img src="./images/Login.png" alt="AWS Login" width="500">
 
 ### Schritt 2: Auswahl des EC2-Dienstes
 1. Nach der Anmeldung sehen Sie das AWS Management Console Dashboard.
