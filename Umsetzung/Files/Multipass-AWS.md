@@ -110,6 +110,8 @@ sudo apt install mysql-client gzip openssh-client -y
 ## Schritt 6: Erstelle eine EC2-Instanz auf AWS
 Erstelle eine EC2-Instanz auf AWS, die als Backup-VM dienen wird. Folge der AWS-Dokumentation zur Einrichtung einer EC2-Instanz. Stelle sicher, dass du einen SSH-Schlüssel (PEM-Datei) zur Authentifizierung generierst und herunterlädst.
 
+[Hier ist ein Link zur erstellung einer EC2-Instanz AWS](./EC2-Instanz-AWS.md)
+
 ## Schritt 7: Konfiguriere die EC2-Instanz (Backup-VM)
 Verbinde dich mit der EC2-Instanz und installiere die notwendigen Tools.
 
