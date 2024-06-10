@@ -41,6 +41,6 @@
 ### Schritt 10: Instanz starten
 1. Überprüfen Sie Ihre Einstellungen und klicken Sie auf "Launch Instance", um die Instanz zu starten.
 
-<img src="./images/Uebersicht.png" alt="Übersicht" width="500">
+<img src="./images/Overview.png" alt="Übersicht" width="500">
 
 Nachdem die Instanz gestartet wurde, können Sie sich mit dem zuvor erstellten Schlüsselpaar über SSH verbinden und Ihre gewünschten Anwendungen und Daten auf die VM übertragen.
