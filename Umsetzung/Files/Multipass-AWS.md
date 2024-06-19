@@ -140,6 +140,7 @@ ssh-keygen -t rsa -b 2048 -N "" -f ~/.ssh/id_rsa
 # Kopiere den öffentlichen Schlüssel zur EC2-Instanz
 ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@<your-ec2-public-ip>
 ```
+[Hier ist ein Link rund um die erstellung von dem SSH Key](./keygen.md)
 
 Stelle sicher, dass die Dateiberechtigungen korrekt sind.
 
