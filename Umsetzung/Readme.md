@@ -21,5 +21,13 @@ Nachdem alle lokalen Tests erfolgreich abgeschlossen waren, wurde die Backup-VM 
 
 [Hier ist ein Link zur vollständigen Dokumentation der Cloud-Umsetzung](./Files/Multipass-AWS.md)
 
+
+## E-Mail-Benachrichtigung für Backup-Skript einrichten
+
+Nach erfolgreichem Test des Skripts musste, gemäss der Zielsetzung, ein Benachrichtigungssystem konfiguriert werden. Dieses System soll Benachrichtigungen senden, wenn das Backup in die Cloud erfolgreich abgeschlossen wurde oder wenn es dabei zu Fehlern gekommen ist.
+
+[Hier ist ein Link zur konfiguration des Benachrichtigungssystem](./Files/Benachrichtigung.md)
+
+
 ---
 
