@@ -1,6 +1,6 @@
 ### Um das Skript zu automatisieren, können Sie es in eine Crontab einfügen, damit es zu festgelegten Zeiten automatisch ausgeführt wird. 
 
---
+---
 
 1. **Skript überprüfen und sicherstellen, dass es ausführbar ist**:
    - Stellen Sie sicher, dass Ihr Skript ausführbar ist:
