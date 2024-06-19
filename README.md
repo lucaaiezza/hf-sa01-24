@@ -6,7 +6,7 @@
 
 ### Themenfelder / Module:
 - Projektmanagement (Pflicht)
-- AWS Einstieg 
+- AWS  
 - Infrastructure as Code
 
 ### Kurzbeschreibung:
