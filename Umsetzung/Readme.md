@@ -28,6 +28,12 @@ Nach erfolgreichem Test des Skripts musste, gemäss der Zielsetzung, ein Benachr
 
 [Hier ist ein Link zur konfiguration des Benachrichtigungssystem](./Files/Benachrichtigung.md)
 
+## Automatiesierungs skript mit Crontab
+
+Für den Abschluss wurde ein Automatisierungsskript erstellt, sodass das Hauptskript selbstständig läuft und keine manuellen Ausführungen mehr erforderlich sind. Dies stellt sicher, dass der gesamte Prozess, wie in der Zielsetzung beschrieben, vollständig automatisiert ist.
+
+[Hier ist ein Link zum Automatiesierungs skript](./Files/Automatieiserung.md)
+
 
 ---
 
