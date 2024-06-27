@@ -27,7 +27,7 @@ graph TD
     style C fill:#9f9,stroke:#333,stroke-width:4px
     
     D[Verfügbarkeitszone: us-east-1c]
-    E[Sicherheitsgruppen: sg-013fa1d9c4263ff2a (launch-wizard-1)]
-    
-    D -.-> C
-    E -.-> C
+    E[Sicherheitsgruppe: sg-013fa1d9c4263ff2a]
+
+    C --> D
+    C --> E
