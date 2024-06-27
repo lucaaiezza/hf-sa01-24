@@ -2,7 +2,7 @@ graph TD
     A[Lokaler Rechner]
     B[MySQL-VM]
     C[AWS EC2-Instanz]
-    
+
     A -->|SSH| B
     B -->|SSH| C
 
@@ -23,7 +23,7 @@ graph TD
 
     classDef info fill:#fff,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5;
     
-    D[Verfügbarkeit Zone: us-east-1c]
+    D[Verfügbarkeitszone: us-east-1c]
     E[Sicherheitsgruppen: sg-013fa1d9c4263ff2a (launch-wizard-1)]
     
     D -.-> C
