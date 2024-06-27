@@ -120,3 +120,31 @@ graph TD
 
     C --> D
     C --> E
+
+```
+
+Das Netzwerk-Schema beschreibt die Konfiguration einer lokalen MySQL-VM und deren Backup auf einer AWS EC2-Instanz. Hier sind die Details:
+
+1. **Lokaler Rechner (A)**: Ein lokales Gerät, das über SSH-Zugriff auf die MySQL-VM hat.
+
+2. **MySQL-VM (B)**: Eine virtuelle Maschine, auf der MySQL läuft. Diese VM befindet sich in der lokalen Umgebung und ist sowohl mit dem lokalen Rechner als auch mit der AWS EC2-Instanz über SSH verbunden.
+
+3. **AWS EC2-Instanz (C)**: Eine Instanz in der Cloud-Umgebung von AWS, die als Ziel für das Backup der MySQL-VM dient.
+
+4. **Verbindung und Kommunikation**:
+    - Der lokale Rechner (A) verbindet sich per SSH mit der MySQL-VM (B).
+    - Die MySQL-VM (B) verbindet sich per SSH mit der AWS EC2-Instanz (C).
+    - Ein Backup-Skript läuft auf der MySQL-VM (B) und sichert die Daten auf die AWS EC2-Instanz (C).
+
+5. **Umgebungen**:
+    - **Lokale Umgebung**: Beinhaltet den lokalen Rechner (A) und die MySQL-VM (B).
+    - **Cloud Umgebung**: Beinhaltet die AWS EC2-Instanz (C).
+
+6. **Spezifikationen der Cloud-Umgebung**:
+    - **Verfügbarkeitszone (D)**: Die AWS EC2-Instanz befindet sich in der Verfügbarkeitszone "us-east-1c".
+    - **Sicherheitsgruppe (E)**: Die Instanz ist mit der Sicherheitsgruppe "sg-013fa1d9c4263ff2a" verbunden, die die Sicherheitsregeln definiert.
+
+**Stile**:
+- Der lokale Rechner (A) ist mit einer pinken Füllung und einem schwarzen Rand hervorgehoben.
+- Die MySQL-VM (B) hat eine hellblaue Füllung mit einem schwarzen Rand.
+- Die AWS EC2-Instanz (C) ist grün gefüllt und hat ebenfalls einen schwarzen Rand.
