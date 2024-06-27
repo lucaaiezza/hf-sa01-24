@@ -144,7 +144,3 @@ Das Netzwerk-Schema beschreibt die Konfiguration einer lokalen MySQL-VM und dere
     - **Verfügbarkeitszone (D)**: Die AWS EC2-Instanz befindet sich in der Verfügbarkeitszone "us-east-1c".
     - **Sicherheitsgruppe (E)**: Die Instanz ist mit der Sicherheitsgruppe "sg-013fa1d9c4263ff2a" verbunden, die die Sicherheitsregeln definiert.
 
-**Stile**:
-- Der lokale Rechner (A) ist mit einer pinken Füllung und einem schwarzen Rand hervorgehoben.
-- Die MySQL-VM (B) hat eine hellblaue Füllung mit einem schwarzen Rand.
-- Die AWS EC2-Instanz (C) ist grün gefüllt und hat ebenfalls einen schwarzen Rand.
