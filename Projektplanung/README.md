@@ -86,7 +86,6 @@ gantt
 
 
 ``` 
----
 
 # Netzwerk-Schema
 
