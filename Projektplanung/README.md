@@ -122,6 +122,7 @@ graph TD
     C --> E
 
 ```
+---
 
 Das Netzwerk-Schema beschreibt die Konfiguration einer lokalen MySQL-VM und deren Backup auf einer AWS EC2-Instanz. Hier sind die Details:
 
