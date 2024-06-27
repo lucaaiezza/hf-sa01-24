@@ -1,3 +1,8 @@
+# Netzwerk-Schema
+
+Dieses Diagramm zeigt die Einrichtung einer lokalen MySQL-VM und das Backup auf einer AWS EC2-Instanz.
+
+```mermaid
 graph TD
     A[Lokaler Rechner]
     B[MySQL-VM]
