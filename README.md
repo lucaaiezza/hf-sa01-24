@@ -18,7 +18,7 @@ Kleine Unternehmen stehen vor der Herausforderung, Daten regelmässig und zuverl
 1. Entwicklung eines Skripts zur automatisierten Sicherung von MySQL-Datenbanken.
 2. Sichere Übertragung und Speicherung der Backups auf einem Cloud-Server.
 3. Einrichtung eines Benachrichtigungssystems für den Sicherungsstatus.
-4. Erstellung einer technischen Dokumentation für Installation, Konfiguration und Wartung.
+4. Erstellung einer technischen Dokumentation für Installation und Konfiguration.
 
 **Terminplan:**
 - **Woche 1:** Planung und Konzeption
