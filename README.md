@@ -6,7 +6,7 @@
 
 ### Themenfelder / Module:
 - Projektmanagement (Pflicht)
-- AWS  
+- AWS Elastic Compute Cloud (Amazon EC2)  
 - Infrastructure as Code
 
 ### Kurzbeschreibung:
