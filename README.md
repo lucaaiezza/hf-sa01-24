@@ -38,3 +38,14 @@ Kleine Unternehmen stehen vor der Herausforderung, Daten regelmässig und zuverl
 - gzip für Komprimierung
 - scp/sftp für Dateiübertragung
 - E-Mail-Clients für Benachrichtigungen
+
+
+## Links zu Umsetzung und Planung
+
+### Projektplanung
+
+[Projektplanung](./Projektplanung/README.md)
+
+### Projektumsetzung
+
+[Projektumsetzung](./Umsetzung/Readme.md)
