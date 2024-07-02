@@ -29,11 +29,11 @@ Kleine Unternehmen stehen vor der Herausforderung, Daten regelmässig und zuverl
 - Computer mit Internetzugang
 - MySQL-Datenbank (zu Testzwecken)
 - Cloud-Server
-- Software: Python/Bash, mysqldump, gzip, scp/sftp, E-Mail-Client
+- Software: Bash, mysqldump, gzip, scp/sftp, E-Mail-Client
 
 **Methoden und Werkzeuge:**
 - Agile Projektmanagement-Methoden
-- Python/Bash für Skripte
+- Bash für Skripte
 - mysqldump für Datenbanksicherungen
 - gzip für Komprimierung
 - scp/sftp für Dateiübertragung
