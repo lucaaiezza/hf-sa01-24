@@ -89,6 +89,12 @@ Detaillierte Informationen zur Planung und den einzelnen Phasen des Projekts sin
 Die technische Umsetzung und relevante Code-Beispiele sind hier dokumentiert:
 [Projektumsetzung](./Umsetzung/Readme.md)
 
+
+### Reflexion
+
+Eine ausführliche Reflexion über das Projekt ist hier verfügbar: 
+[Reflexion](./Reflexion/README.md)
+
 ---
 
 Vielen Dank für Ihr Interesse an diesem Projekt. Bei Fragen oder Feedback stehe ich gerne zur Verfügung.
